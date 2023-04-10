@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 테이블 속성 */
+        table{
+            border: solid gray;
+            background-color: gray;
+        }
+        /* 제목 폰트 속성 */
+        .txt{
+            font-size: 28px;
+            font-weight: bold;
+            text-align: left;
+        }
+        /* 입력란 속성 */
+        input{
+            border-radius: 10px;
+        }
+        /* 제출버튼 속성 */
+        input[type=submit]{
+            background-color: white;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <!-- 간단한 입력양식 -->
+            <th class="txt" colspan="2">간단한 입력 양식</th>
+        </tr>
+        <tr>
+            <td></td>            <!-- 칸 공백 -->
+            <td>&nbsp;</td>      <!-- 칸 공백 -->
+        </tr>
+        <tr>
+            <!-- 아이디 -->
+            <td><label for="ID">아이디</label></td>
+            <td><input type="text" id="ID"></td>
+        </tr>
+        <tr>
+            <!-- 비밀번호 -->
+            <td><label for="Passwd">비밀번호</label></td>
+            <td><input type="password" id="Passwd"></td>
+        </tr>
+        <tr>
+            <!-- 제출 -->
+            <td></td>             <!-- 칸 공백 -->
+            <td><input type = "submit" value="제출"></td>
+        </tr>
+
+        
+    </table>
+</body>
+</html>
